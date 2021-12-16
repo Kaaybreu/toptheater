@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Musicais</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header>
+        <img src= "../favicon.ico"" alt="logo">
+        <h1>Musicais</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li>
+                <a href="pagadmin.html">Administração do Site</a>
+                <ul>
+                    <li><a href="pagusuarios.html">Login de Úsuarios</a></li>
+                    <li><a href="pagmusicais.html">Cadastrar Músicais</a></li>
+                </ul>
+            </li>
+            <li><a href="../pagautora.html">Autora do Site</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action=" " method="post">
+            <h1>Cadastrar Musical</h1>
+            <div>
+                <label for="musical">Nome do Musical:</label>
+                <input type="text" name="musical" id="musical"/>
+            </div>
+            <div>
+                <label for="estreia">Ano de Estreia</label>
+                <input type="month" name="estreia" id="estreia"/>
+            </div>
+            <div>
+                <label for="playwright">Playwright:</label>
+                <input type="text" name="playwright" id="playwright"/> 
+            </div>
+            <div><input type="submit" value="Cadastrar Musical"></div>
+        </form>
+        <section>
+            <h1>Músicais já cadastrados</h1>
+            <table>
+                <tr>
+                    <th>Nome do Musical</th>                    
+                    <th>Ano de Estreia</th>
+                    <th>Playwright</th>
+                </tr>
+                <tr>
+                    <td>Cats</td>
+                    <td>T. S Eliot</td>
+                    <td>1981</td>
+                    <td>
+                        <a href="#">Editar</a>
+                        <a href="#">Apagar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Chicago</td>
+                    <td>Bob Fosse e Fred Edd</td>
+                    <td>1975</td>
+                    <td>
+                        <a href="#">Editar</a>
+                        <a href="#">Apagar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fantasma da Ópera</td>
+                    <td>Andrew Lloyd Webber</td>
+                    <td>1986</td>
+                    <td>
+                        <a href="#">Editar</a>
+                        <a href="#">Apagar</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rent</td>
+                    <td>Jonathan Larson</td>
+                    <td>1994</td>
+                    <td>
+                        <a href="#">Editar</a>
+                        <a href="#">Apagar</a>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>Site desenvolvido por <a href="../pagautora,html">Kaylane Araújo</a></footer>
+</body>
+</html>
